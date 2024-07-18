@@ -12,7 +12,7 @@ Add a simple expiration mechanism using a goroutine that periodically cleans up 
 Caching is a technique use to temporarily save frequently accessed data in high-speed memory like RAM to allow faster access.
 This helps us to reduce the time and resource needed to retrieve data from slower medium or compute is again and helps in improving overall efficiency and performance of application.
 
-Race Condition: https://www.notion.so/Race-Condition-6c0f7cbd8d8c4d98b421e0772495312a
+Race Condition: [https://www.notion.so/Race-Condition-6c0f7cbd8d8c4d98b421e0772495312a](https://olivine-asparagus-094.notion.site/Race-Condition-6c0f7cbd8d8c4d98b421e0772495312a)
 
 ### How improper Caching implementation can lead to Race Condition?
 As in current problem statement if we implement set , get and delete operations which are running concurrently and directly manipulating memory data (atleast having a write access)[Data Race], could lead to race-condition if not done properly . Race condition here means it can lead to data inconsistency , unpredictable behaviour , corrupt data etc.
