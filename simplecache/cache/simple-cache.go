@@ -1,4 +1,4 @@
-package main
+package cache
 
 import (
 	"sync"
@@ -19,7 +19,7 @@ type Cache struct {
 	mu    sync.RWMutex
 }
 
-func main() {
+func init() {
 	cache := NewCache()
 	done := make(chan bool)
 
